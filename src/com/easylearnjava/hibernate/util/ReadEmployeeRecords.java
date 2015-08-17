@@ -1,10 +1,10 @@
-package com.rnr.hibernate.util;
+package com.easylearnjava.hibernate.util;
 
 import java.util.List;
 
 import org.hibernate.Session;
 
-import com.rnr.hibernate.dto.Employee;
+import com.easylearnjava.hibernate.dto.Employee;
 
 public class ReadEmployeeRecords extends BaseDao{
 public static void main(String[] args) {		

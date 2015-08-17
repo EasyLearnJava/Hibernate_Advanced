@@ -1,4 +1,4 @@
-package com.rnr.exception;
+package com.easylearnjava.exception;
 
 public class DaoException extends RuntimeException {
 

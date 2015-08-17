@@ -4,7 +4,7 @@
   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-	<class name="com.rnr.hibernate.dto.Employee" table="EMPLOYEE">
+	<class name="com.easylearnjava.hibernate.dto.Employee" table="EMPLOYEE">
 		
 		<id name="employeeId" column="EMPLOYEE_ID">
 			<generator class="increment"></generator>
@@ -18,7 +18,7 @@
 			<key>
 				<column name="EMPLOYEE_ID_FK" not-null="true" />
 			</key>
-			<one-to-many class="com.rnr.hibernate.dto.Address" />
+			<one-to-many class="com.easylearnjava.hibernate.dto.Address" />
 		</set> 
 		
 	</class>

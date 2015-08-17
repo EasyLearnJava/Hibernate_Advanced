@@ -1,4 +1,4 @@
-package com.rnr.hibernate.dto;
+package com.easylearnjava.hibernate.dto;
 
 import java.util.Set;
 

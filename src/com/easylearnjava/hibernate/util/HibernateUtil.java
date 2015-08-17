@@ -1,4 +1,4 @@
-package com.rnr.hibernate.util;
+package com.easylearnjava.hibernate.util;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistryBuilder;
 
-import com.rnr.exception.ServiceException;
+import com.easylearnjava.exception.ServiceException;
 
 public class HibernateUtil {
 

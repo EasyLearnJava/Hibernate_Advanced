@@ -1,4 +1,4 @@
-package com.rnr.hibernate.util;
+package com.easylearnjava.hibernate.util;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,8 +6,8 @@ import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.rnr.hibernate.dto.Address;
-import com.rnr.hibernate.dto.Employee;
+import com.easylearnjava.hibernate.dto.Address;
+import com.easylearnjava.hibernate.dto.Employee;
 
 public class CreateEmployeeRecords {
 	public static void main(String[] args) {

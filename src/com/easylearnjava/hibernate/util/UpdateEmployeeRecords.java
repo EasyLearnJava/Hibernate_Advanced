@@ -1,10 +1,10 @@
-package com.rnr.hibernate.util;
+package com.easylearnjava.hibernate.util;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.rnr.hibernate.dto.Address;
-import com.rnr.hibernate.dto.Employee;
+import com.easylearnjava.hibernate.dto.Address;
+import com.easylearnjava.hibernate.dto.Employee;
 
 public class UpdateEmployeeRecords {
 public static void main(String[] args) {		

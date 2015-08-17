@@ -4,7 +4,7 @@
   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-	<class name="com.rnr.hibernate.dto.Address" table="ADDRESS">
+	<class name="com.easylearnjava.hibernate.dto.Address" table="ADDRESS">
 
 		<id name="addressId" column="ADDRESS_ID">
 			<generator class="increment"></generator>
@@ -16,7 +16,7 @@
 		<property name="state" column="STATE" />
 		<property name="zip" column="ZIP_CODE" />
 
-		<many-to-one name="employee" class="com.rnr.hibernate.dto.Employee" 
+		<many-to-one name="employee" class="com.easylearnjava.hibernate.dto.Employee" 
 			fetch="select" >
 			<column name="EMPLOYEE_ID_FK" not-null="true" />
 		</many-to-one>
