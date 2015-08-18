@@ -1,6 +1,6 @@
 # Hibernate_Advanced
 
-* Make sure that mySQL db is installed with username as root and password as password
+* Make sure that mySQL db is installed with username as root and password as password.
 * Also create a schema called Athena in the DB
 
 For first time users of this program, changes to be made in the hibernate-cf.xml
