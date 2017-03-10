@@ -22,6 +22,6 @@ And Uncomment the line
 ```
 
 
-Projections in Hibernate
-@Transient
-Update data in the tables by updating a view
+*Projections in Hibernate
+*@Transient
+*Update data in the tables by updating a view
