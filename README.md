@@ -20,3 +20,8 @@ comment the line
 And Uncomment the line
 <property name="hbm2ddl.auto">validate</property>
 ```
+
+
+Projections in Hibernate
+@Transient
+Update data in the tables by updating a view
