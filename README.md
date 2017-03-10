@@ -25,3 +25,4 @@ And Uncomment the line
 * Projections in Hibernate
 * @Transient
 * Update data in the tables by updating a view
+* creating and using a proxy class and its uses
